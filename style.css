@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+}
+
+.caixaimagem {
+    width: 50%;
+    height: 100%;
+}
+.imagemcomoda {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+
+}
+
+main {
+    width: 50%;
+    height: 100%;
+    
+}
