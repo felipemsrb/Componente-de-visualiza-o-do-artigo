@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body {
     display: flex;
+    
 }
 
 .caixaimagem {
@@ -21,5 +23,57 @@ body {
 main {
     width: 50%;
     height: 100%;
+    padding: 50px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+h1 {
+    font-size: 31px;
+    color: dimgray;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    line-height: 1.5em;
+   
+}
+
+.avatarinfo {
+    margin: 2em 0;
+    
+    
+    
+}
+
+.avatarmichelle {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+#nome {
+    margin-bottom: 20px;
+    color: dimgray;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    margin-top: 2em;
+    padding-top: 17px;
+    
+}
+
+#data {
+    margin-bottom: 20px;
+    color: lightslategrey;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    font-size: 16px;
     
 }
