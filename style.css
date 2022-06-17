@@ -87,4 +87,6 @@ h2 {
     display: flex;
     background-color: whitesmoke;
     border-radius: 15px;
+    justify-content: center;
+    text-align: center;
 }
