@@ -38,3 +38,15 @@ body {
     position: relative;
 
 }
+
+.text .heading {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 19px;
+}
+
+.text .subtext{
+    font-size: 14px;
+    margin-top: 3%;
+}
