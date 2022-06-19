@@ -50,3 +50,79 @@ body {
     font-size: 14px;
     margin-top: 3%;
 }
+
+.text .person{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.text .person .images{
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .person .images img{
+    border-radius: 100%;
+}
+
+.person #button{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50px;
+    padding: 8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white
+}
+
+.share{
+    padding: 3%;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+
+.share .shareSvg{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.share .triangle{
+    width: 20px;
+    height: 20px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    transform: rotate(0deg) rotate(45deg);
+}
+
+.person #buttonclose{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50px;
+    padding: 8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white
+}
