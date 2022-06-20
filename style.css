@@ -19,13 +19,15 @@ body {
 .body {
     width: 50%;
     display: flex;
-    line-height: 20px;
+    line-height: 13px;
     border-radius: 10px;
     background-color: white;
 }
 
 .body #mainImg {
     border-radius: 10px 0px 0px 10px;
+    outline: none;
+    
 }
 
 .text{
@@ -44,11 +46,18 @@ body {
     font-weight: 700;
     margin-bottom: 5%;
     font-size: 19px;
+    letter-spacing: 2px;
+    color: hsl(217, 19%, 35%);
+    line-height: 1.2;
 }
 
 .text .subtext{
+    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     margin-top: 3%;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+    line-height: 1.2;
 }
 
 .text .person{
@@ -58,6 +67,29 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 5%;
+}
+
+
+
+
+#nome{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    margin-top: 11%;
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+    margin-left: 1em;
+    display: flex;
+    inline-size: max-content;
+}
+
+#data{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    margin-top: 11%;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+    margin-left: 1em;
 }
 
 .text .person .images{
@@ -110,7 +142,7 @@ body {
     height: 20px;
     background-color: hsl(217, 19%, 35%);
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 35%;
     transform: rotate(0deg) rotate(45deg);
 }
